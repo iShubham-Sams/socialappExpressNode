@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    /* text-align: center; */
+    background-color: lightgray;
+}
+.main_div{
+    height: 98.6vh;
+    width: 99.8vw;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: rows;
+}
+.for_intro{
+    height: 100%;
+    width: 55vw;
+    /* border: 1px red solid; */
+}
+#facb_name{
+    margin-top: 7%;
+    margin-left: 25%;
+    font-size: 3rem;
+    color: blue;
+    font-family: 
+}
+#facb_discrip{
+    font-size: 2rem;
+    margin-left: 25%;
+    margin-top: -6%;
+}
+
+.for_login_form{
+    height: 100%;
+    width: 44.8vw;
+    display: flex;
+}
+#form-login-div{
+    height: 54%;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-top: 15%;
+    border: 1px black solid;
+    border-radius: 1rem;
+    /* background-color:  */
+}
+.exampleInput{
+    margin-left: 10%;
+    margin-right: 8%;
+    height: 40%;
+    width: 78%;
+    margin-top: 4%;
+    font-size: 1rem;
+}
+
+#idFor-log-btn{
+background-color: blue;
+color: white;
+font-weight: 700;
+border-radius: 2rem;
+
+}
+#creat_butn-id{   
+    height: 41%;
+    width: 58%;
+    display: inline-block;
+    font-size: 1rem;
+    background-color: green;
+    color: white;
+    margin-top: 22%;
+    margin-left: 20%;
+    border-radius: 1rem;
+}
