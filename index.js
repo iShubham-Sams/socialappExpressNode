@@ -3,6 +3,8 @@ const path = require('path')
 const port=8000;
 
 const app=express();
+const db=require('./config/mongoose')
+const cookieParser=require('cookie-parser');
 
 
 app.use(express.static('./assets'));
@@ -10,6 +12,7 @@ app.use(express.static('./assets'));
 
 app.set('view engine','ejs')
 app.set('views',path.join(__dirname,'views'))
+app.use(cookieParser);
 
 app.use('/',require('./routes'))
 app.listen(port,function(err){

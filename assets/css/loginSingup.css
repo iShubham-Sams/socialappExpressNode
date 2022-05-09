@@ -17,15 +17,16 @@ body{
 }
 #facb_name{
     margin-top: 7%;
-    margin-left: 25%;
-    font-size: 3rem;
+    margin-left: 23%;
+    font-size: 2rem;
     color: blue;
-    font-family: 
+    position: absolute;
 }
 #facb_discrip{
-    font-size: 2rem;
-    margin-left: 25%;
-    margin-top: -6%;
+    font-size: 1rem;
+    margin-left: 43%;
+    margin-top: 25%;
+    position: relative;
 }
 
 .for_login_form{
@@ -46,12 +47,14 @@ body{
     /* background-color:  */
 }
 .exampleInput{
+    /* position: relative; */
     margin-left: 10%;
     margin-right: 8%;
-    height: 40%;
-    width: 78%;
     margin-top: 4%;
+    height: 14%;
+    width: 78%;
     font-size: 1rem;
+    padding: 0;
 }
 
 #idFor-log-btn{
@@ -62,13 +65,11 @@ border-radius: 2rem;
 
 }
 #creat_butn-id{   
-    height: 41%;
+    height: 17%;
     width: 58%;
-    display: inline-block;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     background-color: green;
     color: white;
-    margin-top: 22%;
     margin-left: 20%;
     border-radius: 1rem;
 }

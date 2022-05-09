@@ -1,10 +1,11 @@
 const express=require('express');
 const routes=express.Router();
 
-const loginSignup=require('../controller/loginSignup')
+const login=require('../controller/login')
 
-routes.get('/',loginSignup.loginSingup);
-routes.get('/singup',loginSignup.signup)
+routes.get('/',login.login);
+routes.use('/user',require('./userPath'))
+
 
 
 module.exports= routes;
